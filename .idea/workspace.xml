@@ -5,48 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38cce77c-f8a2-4806-8d65-236925b03de0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/ats-bad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/ats-good.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/ats-warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/icons/warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/bg-auth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/bg-main.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/bg-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/resume-scan-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/resume-scan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/resume_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/resume_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/images/resume_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/public/pdf.worker.min.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/ats-bad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/ats-good.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/ats-warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/icons/warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/bg-auth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/bg-main.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/bg-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/resume-scan-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/resume-scan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/resume_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/resume_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/images/resume_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/public/pdf.worker.min.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ScoreCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/puter.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-bad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-bad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-good.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-good.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/cross.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/cross.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/info.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/icons/warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/bg-auth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-auth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/bg-main.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-main.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/bg-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/resume-scan-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/resume-scan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/resume_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/resume_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/images/resume_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public/pdf.worker.min.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-router.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,69 +51,72 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/components/ResumeCard.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0581679085264114E-6" />
-      <entry key="MS500" value="0.06477327040659674" />
-      <entry key="S2" value="0.9346162240688731" />
-      <entry key="S5" value="4.404323851391759" />
-      <entry key="S10" value="9.977716418048328" />
-      <entry key="S30" value="23.000767926921025" />
-      <entry key="S60" value="37.49572834656077" />
-      <entry key="M2" value="54.087466848832875" />
-      <entry key="M5" value="70.6080982971657" />
-      <entry key="M10" value="77.77584771742747" />
-      <entry key="M15" value="80.39200166426807" />
-      <entry key="M30" value="83.13129460967683" />
-      <entry key="H1" value="84.54906594042335" />
-      <entry key="H2" value="85.27033588266923" />
-      <entry key="H4" value="85.63411212814064" />
-      <entry key="D1" value="85.93887148867016" />
-      <entry key="W1" value="85.99126374333451" />
+      <entry key="MS100" value="1.0087895194116314" />
+      <entry key="MS500" value="1.387965427137428" />
+      <entry key="S2" value="1.7892203163785996" />
+      <entry key="S5" value="1.909660514554342" />
+      <entry key="S10" value="1.9545379168743753" />
+      <entry key="S30" value="2.34267019818315" />
+      <entry key="S60" value="4.1099805783685905" />
+      <entry key="M2" value="8.895983506090099" />
+      <entry key="M5" value="20.74508898876466" />
+      <entry key="M10" value="32.25674635204832" />
+      <entry key="M15" value="39.229519510643975" />
+      <entry key="M30" value="53.680897824085896" />
+      <entry key="H1" value="88.32106132327927" />
+      <entry key="H2" value="164.42400699442427" />
+      <entry key="H4" value="264.87146473151506" />
+      <entry key="D1" value="433.3095274806246" />
+      <entry key="W1" value="475.47162795499804" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000003597" />
-      <entry key="S5" value="1.000010529525864" />
-      <entry key="S10" value="1.0032449230906104" />
-      <entry key="S30" value="1.1480476333560774" />
-      <entry key="S60" value="1.3847695847596033" />
-      <entry key="M2" value="1.6202979806186726" />
-      <entry key="M5" value="1.8261143134744109" />
-      <entry key="M10" value="1.9089083086177672" />
-      <entry key="M15" value="1.9383108011645271" />
-      <entry key="M30" value="1.9686644419841826" />
-      <entry key="H1" value="1.9842075197762825" />
-      <entry key="H2" value="1.9920723359595724" />
-      <entry key="H4" value="1.9960282807026977" />
-      <entry key="D1" value="1.999336948662282" />
-      <entry key="W1" value="1.9999052514527174" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.0611075713032623E-187" />
+      <entry key="S5" value="2.479427630413251E-75" />
+      <entry key="S10" value="4.979385133139683E-38" />
+      <entry key="S30" value="3.678961469955511E-13" />
+      <entry key="S60" value="6.065485256020381E-7" />
+      <entry key="M2" value="7.809007113130273E-4" />
+      <entry key="M5" value="0.06426451431522458" />
+      <entry key="M10" value="0.3821663415788992" />
+      <entry key="M15" value="0.815853928107104" />
+      <entry key="M30" value="2.4474758523274733" />
+      <entry key="H1" value="7.323080022731779" />
+      <entry key="H2" value="16.95338439344835" />
+      <entry key="H4" value="28.0310318538421" />
+      <entry key="D1" value="44.47270651163526" />
+      <entry key="W1" value="48.32149838956567" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.013322420416704962" />
-      <entry key="MS500" value="0.43348800203521115" />
-      <entry key="S2" value="1.448622620701272" />
-      <entry key="S5" value="4.971066085580107" />
-      <entry key="S10" value="10.63039560767975" />
-      <entry key="S30" value="23.954825977273707" />
-      <entry key="S60" value="38.75495255211845" />
-      <entry key="M2" value="55.631480393019544" />
-      <entry key="M5" value="72.39883754492135" />
-      <entry key="M10" value="79.66606452326768" />
-      <entry key="M15" value="82.3176111944715" />
-      <entry key="M30" value="85.09348367615172" />
-      <entry key="H1" value="86.53000369261011" />
-      <entry key="H2" value="87.2607652001985" />
-      <entry key="H4" value="87.62931685145455" />
-      <entry key="D1" value="87.93807089205862" />
-      <entry key="W1" value="87.99114933844925" />
+      <entry key="MS100" value="0.8179029545564968" />
+      <entry key="MS500" value="1.0223199177938125" />
+      <entry key="S2" value="1.4884425533282604" />
+      <entry key="S5" value="1.752901221809217" />
+      <entry key="S10" value="1.8687723538647294" />
+      <entry key="S30" value="2.311686274955092" />
+      <entry key="S60" value="4.092301095946969" />
+      <entry key="M2" value="8.883965069918553" />
+      <entry key="M5" value="20.798980602999524" />
+      <entry key="M10" value="32.629757106771656" />
+      <entry key="M15" value="40.036598362932885" />
+      <entry key="M30" value="56.118825905819506" />
+      <entry key="H1" value="95.6300530393065" />
+      <entry key="H2" value="181.36030058567584" />
+      <entry key="H4" value="292.88802870464605" />
+      <entry key="D1" value="477.77835110093724" />
+      <entry key="W1" value="523.7925224924929" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3ElbnbxjT8fAcwF2AIQX9VGy4Hp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -129,6 +127,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -146,6 +145,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shreshtha Pandey\WebstormProjects\ai-resume-analyser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shreshtha Pandey\WebstormProjects\ai-resume-analyser\public\public" />
+      <recent name="C:\Users\Shreshtha Pandey\WebstormProjects\ai-resume-analyser\public" />
+      <recent name="C:\Users\Shreshtha Pandey\WebstormProjects\ai-resume-analyser" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -160,7 +169,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780756272356</updated>
-      <workItem from="1780756273281" duration="1097000" />
+      <workItem from="1780756273281" duration="7047000" />
+      <workItem from="1780848132603" duration="4629000" />
+      <workItem from="1780900453523" duration="8345000" />
     </task>
     <servers />
   </component>
