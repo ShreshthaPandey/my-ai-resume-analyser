@@ -1,10 +1,9 @@
-
 import {usePuterStore} from "~/lib/puter";
 import {useEffect} from "react";
 import {useLocation, useNavigate} from "react-router";
 
 export const meta = () => ([
-    { title: 'ResumeInsight | Auth' },
+    { title: 'ResuMate  | Auth' },
     { name: 'description', content: 'Log into your account' },
 ])
 
@@ -15,8 +14,8 @@ const Auth = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        if(!isLoading && auth.isAuthenticated && next) navigate(next);
-    }, [auth.isAuthenticated, isLoading, next])
+        if(auth.isAuthenticated) navigate(next);
+    }, [auth.isAuthenticated, next])
 
     return (
         <main className="bg-[url('/images/bg-auth.svg')] bg-cover min-h-screen flex items-center justify-center">
@@ -26,7 +25,6 @@ const Auth = () => {
                         <h1>Welcome</h1>
                         <h2>Log In to Continue Your Job Journey</h2>
                     </div>
-
                     <div>
                         {isLoading ? (
                             <button className="auth-button animate-pulse">
@@ -46,14 +44,10 @@ const Auth = () => {
                             </>
                         )}
                     </div>
-
-
                 </section>
-
             </div>
-
         </main>
     )
 }
 
-export default Auth;
+export default Auth
