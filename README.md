@@ -29,35 +29,6 @@ An AI-powered resume analyzer that gives you ATS scores and actionable feedback 
 - Node.js 18+
 - npm
 
-### Installation
-
-1. Clone the repository
-
-```bash
-   git clone https://github.com/your-username/resumate.git
-   cd resumate
-```
-
-2. Install dependencies
-
-```bash
-   npm install
-```
-
-3. Copy the PDF worker file to public folder
-
-```bash
-   cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/
-```
-
-4. Start the development server
-
-```bash
-   npm run dev
-```
-
-5. Open [http://localhost:5173](http://localhost:5173) in your browser
-
 ## How it works
 
 1. User uploads a PDF resume via drag & drop or file picker
@@ -73,6 +44,22 @@ An AI-powered resume analyzer that gives you ATS scores and actionable feedback 
 - PDF to image conversion
 - AI-generated feedback with scores across 5 categories
 - Clean and responsive UI
+
+  ## What is Puter?
+
+[Puter](https://puter.com) is a free cloud platform that gives your web app superpowers — no backend needed.
+
+ResuMate uses Puter for 3 things:
+
+### 1. 🗄️ File System (`puter.fs`)
+Puter provides a cloud file system where we upload the resume PDF and the converted image. Files are stored securely in the user's Puter account.
+
+### 2. 🤖 AI (`puter.ai`)
+Puter gives access to powerful AI models (GPT-4o, Claude, etc.) directly from the frontend — no API keys needed, no backend needed. ResuMate uses this to analyze the resume against the job description and generate detailed feedback.
+
+### 3. 💾 Key-Value Store (`puter.kv`)
+Puter provides a simple key-value database to store the resume analysis results. This allows ResuMate to retrieve and display the feedback on the results page.
+
 
 ## License
 
