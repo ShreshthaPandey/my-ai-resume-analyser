@@ -14,13 +14,14 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-    const { auth } = usePuterStore();
+    const { auth , isLoading } = usePuterStore();
     const navigate = useNavigate();
-
+    ;
 
     useEffect(() => {
+        if(isLoading) return;
         if(!auth.isAuthenticated) navigate('/auth?next=/');
-    }, [auth.isAuthenticated])
+    }, [auth.isAuthenticated, isLoading])
 
 
 

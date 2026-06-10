@@ -5,43 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38cce77c-f8a2-4806-8d65-236925b03de0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreCircle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/puter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/FileUploader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/pdf2img.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/puter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-bad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-bad.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-good.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-good.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/ats-warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ats-warning.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/back.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/check.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/cross.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/cross.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/info.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/icons/warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/warning.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/bg-auth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-auth.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/bg-main.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-main.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/bg-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/bg-small.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/resume-scan-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/resume-scan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume-scan.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/resume_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/resume_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/images/resume_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/resume_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/public/pdf.worker.min.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-router.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,61 +30,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0087895194116314" />
-      <entry key="MS500" value="1.387965427137428" />
-      <entry key="S2" value="1.7892203163785996" />
-      <entry key="S5" value="1.909660514554342" />
-      <entry key="S10" value="1.9545379168743753" />
-      <entry key="S30" value="2.34267019818315" />
-      <entry key="S60" value="4.1099805783685905" />
-      <entry key="M2" value="8.895983506090099" />
-      <entry key="M5" value="20.74508898876466" />
-      <entry key="M10" value="32.25674635204832" />
-      <entry key="M15" value="39.229519510643975" />
-      <entry key="M30" value="53.680897824085896" />
-      <entry key="H1" value="88.32106132327927" />
-      <entry key="H2" value="164.42400699442427" />
-      <entry key="H4" value="264.87146473151506" />
-      <entry key="D1" value="433.3095274806246" />
-      <entry key="W1" value="475.47162795499804" />
+      <entry key="MS100" value="1.0003148804186768" />
+      <entry key="MS500" value="1.6477323580246015" />
+      <entry key="S2" value="4.367342549894243" />
+      <entry key="S5" value="5.753476589553397" />
+      <entry key="S10" value="6.338843557536386" />
+      <entry key="S30" value="6.783424706685649" />
+      <entry key="S60" value="7.190831664158497" />
+      <entry key="M2" value="8.795414418145278" />
+      <entry key="M5" value="17.06022898142681" />
+      <entry key="M10" value="31.42501524065427" />
+      <entry key="M15" value="43.945349111631884" />
+      <entry key="M30" value="76.87369287170947" />
+      <entry key="H1" value="136.08240485080702" />
+      <entry key="H2" value="237.29624690945388" />
+      <entry key="H4" value="376.8823813550248" />
+      <entry key="D1" value="650.0933470011103" />
+      <entry key="W1" value="726.1182371842307" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.0611075713032623E-187" />
-      <entry key="S5" value="2.479427630413251E-75" />
-      <entry key="S10" value="4.979385133139683E-38" />
-      <entry key="S30" value="3.678961469955511E-13" />
-      <entry key="S60" value="6.065485256020381E-7" />
-      <entry key="M2" value="7.809007113130273E-4" />
-      <entry key="M5" value="0.06426451431522458" />
-      <entry key="M10" value="0.3821663415788992" />
-      <entry key="M15" value="0.815853928107104" />
-      <entry key="M30" value="2.4474758523274733" />
-      <entry key="H1" value="7.323080022731779" />
-      <entry key="H2" value="16.95338439344835" />
-      <entry key="H4" value="28.0310318538421" />
-      <entry key="D1" value="44.47270651163526" />
-      <entry key="W1" value="48.32149838956567" />
+      <entry key="S2" value="3.20174089604237E-301" />
+      <entry key="S5" value="6.340952111903336E-121" />
+      <entry key="S10" value="7.963018430541664E-61" />
+      <entry key="S30" value="9.366824449121205E-21" />
+      <entry key="S60" value="1.0843399287948873E-10" />
+      <entry key="M2" value="1.660448800437112E-5" />
+      <entry key="M5" value="0.03978624889399545" />
+      <entry key="M10" value="0.672066715417005" />
+      <entry key="M15" value="1.8919065547704994" />
+      <entry key="M30" value="6.265549763469636" />
+      <entry key="H1" value="13.840054706344784" />
+      <entry key="H2" value="25.796299948320616" />
+      <entry key="H4" value="41.27986060129768" />
+      <entry key="D1" value="69.26013354882784" />
+      <entry key="W1" value="76.66257352106241" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8179029545564968" />
-      <entry key="MS500" value="1.0223199177938125" />
-      <entry key="S2" value="1.4884425533282604" />
-      <entry key="S5" value="1.752901221809217" />
-      <entry key="S10" value="1.8687723538647294" />
-      <entry key="S30" value="2.311686274955092" />
-      <entry key="S60" value="4.092301095946969" />
-      <entry key="M2" value="8.883965069918553" />
-      <entry key="M5" value="20.798980602999524" />
-      <entry key="M10" value="32.629757106771656" />
-      <entry key="M15" value="40.036598362932885" />
-      <entry key="M30" value="56.118825905819506" />
-      <entry key="H1" value="95.6300530393065" />
-      <entry key="H2" value="181.36030058567584" />
-      <entry key="H4" value="292.88802870464605" />
-      <entry key="D1" value="477.77835110093724" />
-      <entry key="W1" value="523.7925224924929" />
+      <entry key="MS100" value="0.00367084612559725" />
+      <entry key="MS500" value="0.9573539009025042" />
+      <entry key="S2" value="4.1030176292375105" />
+      <entry key="S5" value="5.636078964540917" />
+      <entry key="S10" value="6.277931408937999" />
+      <entry key="S30" value="6.762560385956505" />
+      <entry key="S60" value="7.179886398595386" />
+      <entry key="M2" value="8.788727578156177" />
+      <entry key="M5" value="17.093691621865926" />
+      <entry key="M10" value="32.08779501398075" />
+      <entry key="M15" value="45.82522132504542" />
+      <entry key="M30" value="83.1231164373221" />
+      <entry key="H1" value="149.90461803472053" />
+      <entry key="H2" value="263.07401224885626" />
+      <entry key="H4" value="418.145831003034" />
+      <entry key="D1" value="719.3484474960255" />
+      <entry key="W1" value="802.780002887122" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -122,29 +96,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Shreshtha Pandey/WebstormProjects/ai-resume-analyser",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\Shreshtha Pandey\\WebstormProjects\\ai-resume-analyser\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shreshtha Pandey/WebstormProjects/ai-resume-analyser&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Shreshtha Pandey\\WebstormProjects\\ai-resume-analyser\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shreshtha Pandey\WebstormProjects\ai-resume-analyser" />
@@ -171,7 +145,8 @@
       <updated>1780756272356</updated>
       <workItem from="1780756273281" duration="7047000" />
       <workItem from="1780848132603" duration="4629000" />
-      <workItem from="1780900453523" duration="8345000" />
+      <workItem from="1780900453523" duration="10631000" />
+      <workItem from="1781024242553" duration="6909000" />
     </task>
     <servers />
   </component>
