@@ -1,87 +1,79 @@
-# Welcome to React Router!
+# ResuMate 🚀
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume analyzer that gives you ATS scores and actionable feedback to land your dream job.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## What it does
 
-## Features
+- Upload your resume (PDF)
+- Enter the job title, company name, and job description
+- Get instant AI-powered feedback including:
+  - Overall ATS score
+  - Tone & style analysis
+  - Content quality review
+  - Structure suggestions
+  - Skills gap analysis
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Tech Stack
+
+- **Frontend** — React + TypeScript
+- **Routing** — React Router v7
+- **Styling** — Tailwind CSS
+- **File Upload** — react-dropzone
+- **PDF Processing** — pdfjs-dist
+- **AI & Storage** — Puter.js (AI chat, file system, key-value store)
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js 18+
+- npm
+
 ### Installation
 
-Install the dependencies:
+1. Clone the repository
 
 ```bash
-npm install
+   git clone https://github.com/your-username/resumate.git
+   cd resumate
 ```
 
-### Development
-
-Start the development server with HMR:
+2. Install dependencies
 
 ```bash
-npm run dev
+   npm install
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+3. Copy the PDF worker file to public folder
 
 ```bash
-npm run build
+   cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+4. Start the development server
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+   npm run dev
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+5. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+## How it works
 
-### DIY Deployment
+1. User uploads a PDF resume via drag & drop or file picker
+2. PDF is converted to an image using pdfjs-dist
+3. Both the PDF and image are uploaded to Puter file system
+4. AI analyzes the resume against the provided job description
+5. Feedback is stored in Puter KV store and displayed on the results page
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+## Features
 
-Make sure to deploy the output of `npm run build`
+- Drag & drop file upload with validation
+- Real-time processing status updates
+- PDF to image conversion
+- AI-generated feedback with scores across 5 categories
+- Clean and responsive UI
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+## License
 
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+MIT
